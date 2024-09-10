@@ -19,7 +19,7 @@ function EVAmodel() {
 
 function Navbar3D() {
   return (
-    <Box args={[5, 0.5, 0.2]} position={[0, 3, 0]} castShadow>
+    <Box args={[6, 0.6, 0.25]} position={[0, 3.5, 0]} castShadow>
       <meshStandardMaterial color="blue" />
     </Box>
   );
